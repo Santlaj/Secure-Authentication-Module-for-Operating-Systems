@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <div>
+    <h4 class="fw-bold mb-1"><i class="bi bi-display me-2" style="color:#4f46e5;"></i>Active Sessions</h4>
+    <p class="text-muted small mb-0">All devices currently logged into your account</p>
+  </div>
+  <a href="/sessions/revoke_all" class="btn btn-outline-danger btn-sm"
+     onclick="return confirm('Logout from all sessions? You will need to login again.')">
+    <i class="bi bi-power me-1"></i>Logout All
+  </a>
+</div>
+
+{% if sessions %}
+<div class="row g-3">
+  {% for s in sessions %}
+  <div class="col-12">
+    <div class="card p-3 {% if s['id'] == current_sid %}border border-primary{% endif %}">
+      <div class="d-flex align-items-start justify-content-between gap-3">
+        <div class="d-flex align-items-center gap-3">
+          <div class="rounded-circle d-flex align-items-center justify-content-center"
+               style="width:44px;height:44px;background:#ede9fe;flex-shrink:0;">
+            <i class="bi bi-laptop fs-5" style="color:#4f46e5;"></i>
+          </div>
+          <div>
+            {% if s['id'] == current_sid %}
+            <span class="badge bg-primary mb-1">Current Session</span><br>
+            {% endif %}
+            <div class="small fw-semibold text-truncate" style="max-width:380px;">{{ s['browser'] or 'Unknown Browser' }}</div>
+            <div class="text-muted" style="font-size:.8rem;">
+              <i class="bi bi-geo-alt me-1"></i>{{ s['ip'] }}
+              <span class="mx-2">·</span>
+              <i class="bi bi-clock me-1"></i>{{ s['login_time'] }}
+            </div>
+          </div>
+        </div>
+        {% if s['id'] != current_sid %}
+        <a href="/sessions/revoke/{{ s['id'] }}" class="btn btn-outline-secondary btn-sm flex-shrink-0"
+           onclick="return confirm('Revoke this session?')">
+          <i class="bi bi-x-circle me-1"></i>Revoke
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="card p-5 text-center text-muted">
+  <i class="bi bi-display fs-1 mb-3 opacity-25"></i>
+  <p>No active sessions found.</p>
+</div>
+{% endif %}
+
+<div class="mt-3">
+  <a href="/dashboard" class="btn btn-outline-secondary btn-sm">
+    <i class="bi bi-arrow-left me-1"></i>Back to Dashboard
+  </a>
+</div>
+{% endblock %}

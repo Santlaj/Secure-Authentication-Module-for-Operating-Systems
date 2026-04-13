@@ -1,0 +1,427 @@
+2026-02-17 22:03:03,771 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:03:03,771 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:03:03,780 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:03:03,899 -  * Debugger is active!
+2026-02-17 22:03:03,911 -  * Debugger PIN: 686-761-234
+2026-02-17 22:03:13,396 - 127.0.0.1 - - [17/Feb/2026 22:03:13] "GET /dashboard HTTP/1.1" 200 -
+2026-02-17 22:04:01,889 - 127.0.0.1 - - [17/Feb/2026 22:04:01] "[33mGET /test HTTP/1.1[0m" 404 -
+2026-02-17 22:04:15,224 - 127.0.0.1 - - [17/Feb/2026 22:04:15] "[32mGET / HTTP/1.1[0m" 302 -
+2026-02-17 22:04:15,229 - 127.0.0.1 - - [17/Feb/2026 22:04:15] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:04:21,405 - Password correct for laksh
+2026-02-17 22:04:21,406 - 127.0.0.1 - - [17/Feb/2026 22:04:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:04:21,411 - 127.0.0.1 - - [17/Feb/2026 22:04:21] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:04:33,509 - 127.0.0.1 - - [17/Feb/2026 22:04:33] "POST /otp HTTP/1.1" 200 -
+2026-02-17 22:04:44,469 - 127.0.0.1 - - [17/Feb/2026 22:04:44] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:04:55,175 - 127.0.0.1 - - [17/Feb/2026 22:04:55] "POST /otp HTTP/1.1" 200 -
+2026-02-17 22:04:56,417 - 127.0.0.1 - - [17/Feb/2026 22:04:56] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:04:58,187 - Password correct for laksh
+2026-02-17 22:04:58,187 - 127.0.0.1 - - [17/Feb/2026 22:04:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:04:58,193 - 127.0.0.1 - - [17/Feb/2026 22:04:58] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:05:13,395 - 127.0.0.1 - - [17/Feb/2026 22:05:13] "POST /otp HTTP/1.1" 200 -
+2026-02-17 22:05:29,657 - 127.0.0.1 - - [17/Feb/2026 22:05:29] "POST /otp HTTP/1.1" 200 -
+2026-02-17 22:05:31,912 - 127.0.0.1 - - [17/Feb/2026 22:05:31] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:05:36,008 - 127.0.0.1 - - [17/Feb/2026 22:05:36] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:05:48,283 - 127.0.0.1 - - [17/Feb/2026 22:05:48] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:05:48,317 - 127.0.0.1 - - [17/Feb/2026 22:05:48] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-17 22:05:48,317 - 127.0.0.1 - - [17/Feb/2026 22:05:48] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-17 22:05:48,322 - 127.0.0.1 - - [17/Feb/2026 22:05:48] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=uiAWV4UpH93grF0Rs072 HTTP/1.1" 200 -
+2026-02-17 22:05:48,339 - 127.0.0.1 - - [17/Feb/2026 22:05:48] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-17 22:05:58,390 - 127.0.0.1 - - [17/Feb/2026 22:05:58] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:06:01,505 - 127.0.0.1 - - [17/Feb/2026 22:06:01] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:06:02,465 - 127.0.0.1 - - [17/Feb/2026 22:06:02] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:06:02,659 - 127.0.0.1 - - [17/Feb/2026 22:06:02] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:06:02,866 - 127.0.0.1 - - [17/Feb/2026 22:06:02] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:06:02,883 - 127.0.0.1 - - [17/Feb/2026 22:06:02] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:06:02,884 - 127.0.0.1 - - [17/Feb/2026 22:06:02] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:06:02,889 - 127.0.0.1 - - [17/Feb/2026 22:06:02] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=uiAWV4UpH93grF0Rs072 HTTP/1.1[0m" 304 -
+2026-02-17 22:06:02,902 - 127.0.0.1 - - [17/Feb/2026 22:06:02] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:06:39,542 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:06:39,542 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:06:39,552 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:06:39,659 -  * Debugger is active!
+2026-02-17 22:06:39,672 -  * Debugger PIN: 686-761-234
+2026-02-17 22:07:39,538 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:07:39,539 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:07:39,548 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:07:39,665 -  * Debugger is active!
+2026-02-17 22:07:39,677 -  * Debugger PIN: 686-761-234
+2026-02-17 22:08:20,190 - 127.0.0.1 - - [17/Feb/2026 22:08:20] "[32mGET / HTTP/1.1[0m" 302 -
+2026-02-17 22:08:20,241 - 127.0.0.1 - - [17/Feb/2026 22:08:20] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:08:22,718 - 127.0.0.1 - - [17/Feb/2026 22:08:22] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:08:29,618 - 127.0.0.1 - - [17/Feb/2026 22:08:29] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:08:29,642 - 127.0.0.1 - - [17/Feb/2026 22:08:29] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:08:29,642 - 127.0.0.1 - - [17/Feb/2026 22:08:29] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:08:29,658 - 127.0.0.1 - - [17/Feb/2026 22:08:29] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=AaNuRs2NeGF3QQhspepc HTTP/1.1" 200 -
+2026-02-17 22:08:29,669 - 127.0.0.1 - - [17/Feb/2026 22:08:29] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:08:42,074 - 127.0.0.1 - - [17/Feb/2026 22:08:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:08:44,926 - 127.0.0.1 - - [17/Feb/2026 22:08:44] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:08:44,959 - 127.0.0.1 - - [17/Feb/2026 22:08:44] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:08:44,960 - 127.0.0.1 - - [17/Feb/2026 22:08:44] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:08:44,969 - 127.0.0.1 - - [17/Feb/2026 22:08:44] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=AaNuRs2NeGF3QQhspepc HTTP/1.1[0m" 304 -
+2026-02-17 22:08:44,976 - 127.0.0.1 - - [17/Feb/2026 22:08:44] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:09:38,066 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/database.py', reloading
+2026-02-17 22:09:38,350 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:09:38,602 -  * Debugger is active!
+2026-02-17 22:09:38,615 -  * Debugger PIN: 686-761-234
+2026-02-17 22:09:56,071 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:09:56,071 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:09:56,077 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:09:56,202 -  * Debugger is active!
+2026-02-17 22:09:56,216 -  * Debugger PIN: 686-761-234
+2026-02-17 22:10:11,324 - 127.0.0.1 - - [17/Feb/2026 22:10:11] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:10:18,413 - 127.0.0.1 - - [17/Feb/2026 22:10:18] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:10:29,824 - 127.0.0.1 - - [17/Feb/2026 22:10:29] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:10:38,695 - 127.0.0.1 - - [17/Feb/2026 22:10:38] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-17 22:10:38,701 - 127.0.0.1 - - [17/Feb/2026 22:10:38] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:10:45,270 - Password correct for damon
+2026-02-17 22:10:45,273 - 127.0.0.1 - - [17/Feb/2026 22:10:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:10:45,279 - 127.0.0.1 - - [17/Feb/2026 22:10:45] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:10:58,585 - OTP verified for damon
+2026-02-17 22:10:58,587 - 127.0.0.1 - - [17/Feb/2026 22:10:58] "[32mPOST /otp HTTP/1.1[0m" 302 -
+2026-02-17 22:10:58,592 - 127.0.0.1 - - [17/Feb/2026 22:10:58] "GET /dashboard HTTP/1.1" 200 -
+2026-02-17 22:11:02,856 - 127.0.0.1 - - [17/Feb/2026 22:11:02] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-17 22:11:02,872 - 127.0.0.1 - - [17/Feb/2026 22:11:02] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:25:53,357 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:25:53,357 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:25:53,365 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:25:53,475 -  * Debugger is active!
+2026-02-17 22:25:53,491 -  * Debugger PIN: 686-761-234
+2026-02-17 22:26:02,135 - 127.0.0.1 - - [17/Feb/2026 22:26:02] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-02-17 22:26:02,685 - 127.0.0.1 - - [17/Feb/2026 22:26:02] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:26:04,464 - 127.0.0.1 - - [17/Feb/2026 22:26:04] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:26:08,600 - 127.0.0.1 - - [17/Feb/2026 22:26:08] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:26:15,137 - 127.0.0.1 - - [17/Feb/2026 22:26:15] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-17 22:26:15,176 - 127.0.0.1 - - [17/Feb/2026 22:26:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:26:15,176 - 127.0.0.1 - - [17/Feb/2026 22:26:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:26:15,185 - 127.0.0.1 - - [17/Feb/2026 22:26:15] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=qc2xvMcHxv9x1pcdKoFs HTTP/1.1" 200 -
+2026-02-17 22:26:15,192 - 127.0.0.1 - - [17/Feb/2026 22:26:15] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:26:26,658 - 127.0.0.1 - - [17/Feb/2026 22:26:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-17 22:26:26,686 - 127.0.0.1 - - [17/Feb/2026 22:26:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:26:26,687 - 127.0.0.1 - - [17/Feb/2026 22:26:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:26:26,699 - 127.0.0.1 - - [17/Feb/2026 22:26:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=qc2xvMcHxv9x1pcdKoFs HTTP/1.1[0m" 304 -
+2026-02-17 22:26:26,705 - 127.0.0.1 - - [17/Feb/2026 22:26:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:26:29,102 - 127.0.0.1 - - [17/Feb/2026 22:26:29] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:26:35,020 - 127.0.0.1 - - [17/Feb/2026 22:26:35] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:26:35,042 - 127.0.0.1 - - [17/Feb/2026 22:26:35] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:26:35,043 - 127.0.0.1 - - [17/Feb/2026 22:26:35] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:26:35,049 - 127.0.0.1 - - [17/Feb/2026 22:26:35] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=qc2xvMcHxv9x1pcdKoFs HTTP/1.1" 200 -
+2026-02-17 22:26:35,055 - 127.0.0.1 - - [17/Feb/2026 22:26:35] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:26:55,082 - 127.0.0.1 - - [17/Feb/2026 22:26:55] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:26:55,131 - 127.0.0.1 - - [17/Feb/2026 22:26:55] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:26:55,131 - 127.0.0.1 - - [17/Feb/2026 22:26:55] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:26:55,149 - 127.0.0.1 - - [17/Feb/2026 22:26:55] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=qc2xvMcHxv9x1pcdKoFs HTTP/1.1[0m" 304 -
+2026-02-17 22:26:55,164 - 127.0.0.1 - - [17/Feb/2026 22:26:55] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:27:16,404 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:27:16,404 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:27:16,411 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:27:16,517 -  * Debugger is active!
+2026-02-17 22:27:16,528 -  * Debugger PIN: 686-761-234
+2026-02-17 22:27:18,824 - 127.0.0.1 - - [17/Feb/2026 22:27:18] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:27:29,086 - 127.0.0.1 - - [17/Feb/2026 22:27:29] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-17 22:27:29,094 - 127.0.0.1 - - [17/Feb/2026 22:27:29] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:27:38,133 - Password correct for hellp
+2026-02-17 22:27:38,135 - 127.0.0.1 - - [17/Feb/2026 22:27:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:27:38,140 - 127.0.0.1 - - [17/Feb/2026 22:27:38] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:27:51,924 - OTP verified for hellp
+2026-02-17 22:27:51,929 - 127.0.0.1 - - [17/Feb/2026 22:27:51] "[32mPOST /otp HTTP/1.1[0m" 302 -
+2026-02-17 22:27:51,935 - 127.0.0.1 - - [17/Feb/2026 22:27:51] "GET /dashboard HTTP/1.1" 200 -
+2026-02-17 22:29:32,898 - 127.0.0.1 - - [17/Feb/2026 22:29:32] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:29:33,312 - 127.0.0.1 - - [17/Feb/2026 22:29:33] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:29:34,060 - 127.0.0.1 - - [17/Feb/2026 22:29:34] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:29:53,286 - 127.0.0.1 - - [17/Feb/2026 22:29:53] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-17 22:29:53,293 - 127.0.0.1 - - [17/Feb/2026 22:29:53] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:30:03,429 - Password correct for hello
+2026-02-17 22:30:03,430 - 127.0.0.1 - - [17/Feb/2026 22:30:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:30:03,434 - 127.0.0.1 - - [17/Feb/2026 22:30:03] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:31:30,293 - 127.0.0.1 - - [17/Feb/2026 22:31:30] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:31:31,126 - 127.0.0.1 - - [17/Feb/2026 22:31:31] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:31:51,478 - 127.0.0.1 - - [17/Feb/2026 22:31:51] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:31:51,506 - 127.0.0.1 - - [17/Feb/2026 22:31:51] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:31:51,506 - 127.0.0.1 - - [17/Feb/2026 22:31:51] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:31:51,516 - 127.0.0.1 - - [17/Feb/2026 22:31:51] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=nG55JjgxthSjpOIrrUux HTTP/1.1" 200 -
+2026-02-17 22:31:51,523 - 127.0.0.1 - - [17/Feb/2026 22:31:51] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:32:08,900 - 127.0.0.1 - - [17/Feb/2026 22:32:08] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:32:08,938 - 127.0.0.1 - - [17/Feb/2026 22:32:08] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:32:08,940 - 127.0.0.1 - - [17/Feb/2026 22:32:08] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:32:08,951 - 127.0.0.1 - - [17/Feb/2026 22:32:08] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=nG55JjgxthSjpOIrrUux HTTP/1.1[0m" 304 -
+2026-02-17 22:32:08,960 - 127.0.0.1 - - [17/Feb/2026 22:32:08] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:32:25,504 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:32:25,504 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:32:25,511 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:32:25,617 -  * Debugger is active!
+2026-02-17 22:32:25,630 -  * Debugger PIN: 686-761-234
+2026-02-17 22:32:29,610 - 127.0.0.1 - - [17/Feb/2026 22:32:29] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-17 22:32:29,614 - 127.0.0.1 - - [17/Feb/2026 22:32:29] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:32:33,132 - 127.0.0.1 - - [17/Feb/2026 22:32:33] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:32:43,356 - 127.0.0.1 - - [17/Feb/2026 22:32:43] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:32:43,388 - 127.0.0.1 - - [17/Feb/2026 22:32:43] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:32:43,389 - 127.0.0.1 - - [17/Feb/2026 22:32:43] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:32:43,398 - 127.0.0.1 - - [17/Feb/2026 22:32:43] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=pE6TzOoruay8R7zkMqgY HTTP/1.1" 200 -
+2026-02-17 22:32:43,406 - 127.0.0.1 - - [17/Feb/2026 22:32:43] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:33:05,066 - 127.0.0.1 - - [17/Feb/2026 22:33:05] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-17 22:33:05,116 - 127.0.0.1 - - [17/Feb/2026 22:33:05] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 22:33:05,120 - 127.0.0.1 - - [17/Feb/2026 22:33:05] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 22:33:05,124 - 127.0.0.1 - - [17/Feb/2026 22:33:05] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=pE6TzOoruay8R7zkMqgY HTTP/1.1[0m" 304 -
+2026-02-17 22:33:05,137 - 127.0.0.1 - - [17/Feb/2026 22:33:05] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 22:33:36,124 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:33:36,124 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:33:36,132 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:33:36,238 -  * Debugger is active!
+2026-02-17 22:33:36,249 -  * Debugger PIN: 686-761-234
+2026-02-17 22:33:41,737 - 127.0.0.1 - - [17/Feb/2026 22:33:41] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:33:44,156 - 127.0.0.1 - - [17/Feb/2026 22:33:44] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:33:58,892 - 127.0.0.1 - - [17/Feb/2026 22:33:58] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-17 22:33:58,907 - 127.0.0.1 - - [17/Feb/2026 22:33:58] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:34:05,698 - Password correct for i
+2026-02-17 22:34:05,699 - 127.0.0.1 - - [17/Feb/2026 22:34:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:34:05,707 - 127.0.0.1 - - [17/Feb/2026 22:34:05] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:36:25,668 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:36:25,668 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:36:25,675 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:36:25,783 -  * Debugger is active!
+2026-02-17 22:36:25,794 -  * Debugger PIN: 686-761-234
+2026-02-17 22:36:30,464 - 127.0.0.1 - - [17/Feb/2026 22:36:30] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:36:31,100 - 127.0.0.1 - - [17/Feb/2026 22:36:31] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:36:31,942 - 127.0.0.1 - - [17/Feb/2026 22:36:31] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:36:41,167 - 127.0.0.1 - - [17/Feb/2026 22:36:41] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-17 22:36:41,173 - 127.0.0.1 - - [17/Feb/2026 22:36:41] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:36:45,681 - Password correct for i
+2026-02-17 22:36:45,681 - 127.0.0.1 - - [17/Feb/2026 22:36:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:36:45,690 - 127.0.0.1 - - [17/Feb/2026 22:36:45] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:37:49,373 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/app.py', reloading
+2026-02-17 22:37:49,375 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/database.py', reloading
+2026-02-17 22:37:49,375 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/security.py', reloading
+2026-02-17 22:37:50,288 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:37:50,543 -  * Debugger is active!
+2026-02-17 22:37:50,556 -  * Debugger PIN: 686-761-234
+2026-02-17 22:39:19,754 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/app.py', reloading
+2026-02-17 22:39:20,076 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:39:20,293 -  * Debugger is active!
+2026-02-17 22:39:20,307 -  * Debugger PIN: 686-761-234
+2026-02-17 22:39:26,107 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/app.py', reloading
+2026-02-17 22:39:26,417 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:39:26,581 -  * Debugger is active!
+2026-02-17 22:39:26,590 -  * Debugger PIN: 686-761-234
+2026-02-17 22:39:33,190 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/app.py', reloading
+2026-02-17 22:39:33,691 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:41:58,115 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 22:41:58,115 - [33mPress CTRL+C to quit[0m
+2026-02-17 22:41:58,123 -  * Restarting with watchdog (fsevents)
+2026-02-17 22:41:58,243 -  * Debugger is active!
+2026-02-17 22:41:58,256 -  * Debugger PIN: 686-761-234
+2026-02-17 22:42:05,808 - 127.0.0.1 - - [17/Feb/2026 22:42:05] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:42:06,866 - 127.0.0.1 - - [17/Feb/2026 22:42:06] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:42:07,607 - 127.0.0.1 - - [17/Feb/2026 22:42:07] "GET /register HTTP/1.1" 200 -
+2026-02-17 22:42:16,068 - 127.0.0.1 - - [17/Feb/2026 22:42:16] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-17 22:42:16,075 - 127.0.0.1 - - [17/Feb/2026 22:42:16] "GET /login HTTP/1.1" 200 -
+2026-02-17 22:42:24,142 - Password correct for a
+2026-02-17 22:42:24,145 - 127.0.0.1 - - [17/Feb/2026 22:42:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 22:42:24,153 - 127.0.0.1 - - [17/Feb/2026 22:42:24] "GET /otp HTTP/1.1" 200 -
+2026-02-17 22:42:39,023 - OTP verified for a
+2026-02-17 22:42:39,025 - 127.0.0.1 - - [17/Feb/2026 22:42:39] "[32mPOST /otp HTTP/1.1[0m" 302 -
+2026-02-17 22:42:39,032 - 127.0.0.1 - - [17/Feb/2026 22:42:39] "GET /dashboard HTTP/1.1" 200 -
+2026-02-20 11:12:32,995 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-20 11:12:32,996 - [33mPress CTRL+C to quit[0m
+2026-02-20 11:12:33,026 -  * Restarting with watchdog (fsevents)
+2026-02-20 11:12:33,164 -  * Debugger is active!
+2026-02-20 11:12:33,177 -  * Debugger PIN: 686-761-234
+2026-02-20 11:12:41,635 - 127.0.0.1 - - [20/Feb/2026 11:12:41] "[32mGET / HTTP/1.1[0m" 302 -
+2026-02-20 11:12:41,643 - 127.0.0.1 - - [20/Feb/2026 11:12:41] "GET /login HTTP/1.1" 200 -
+2026-02-20 11:12:41,720 - 127.0.0.1 - - [20/Feb/2026 11:12:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-20 11:12:45,636 - 127.0.0.1 - - [20/Feb/2026 11:12:45] "GET /register HTTP/1.1" 200 -
+2026-02-20 11:13:05,253 - 127.0.0.1 - - [20/Feb/2026 11:13:05] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-20 11:13:05,259 - 127.0.0.1 - - [20/Feb/2026 11:13:05] "GET /login HTTP/1.1" 200 -
+2026-02-20 11:13:20,599 - Password correct for sss
+2026-02-20 11:13:20,601 - 127.0.0.1 - - [20/Feb/2026 11:13:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-20 11:13:20,611 - 127.0.0.1 - - [20/Feb/2026 11:13:20] "GET /otp HTTP/1.1" 200 -
+2026-02-20 11:13:50,447 - OTP verified for sss
+2026-02-20 11:13:50,448 - 127.0.0.1 - - [20/Feb/2026 11:13:50] "[32mPOST /otp HTTP/1.1[0m" 302 -
+2026-02-20 11:13:50,451 - 127.0.0.1 - - [20/Feb/2026 11:13:50] "GET /dashboard HTTP/1.1" 200 -
+2026-02-20 11:14:12,816 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/ncdjc.py', reloading
+2026-02-20 11:14:13,787 -  * Restarting with watchdog (fsevents)
+2026-02-20 11:14:14,033 -  * Debugger is active!
+2026-02-20 11:14:14,047 -  * Debugger PIN: 686-761-234
+2026-02-20 11:14:14,311 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/ncdjc.py', reloading
+2026-02-20 11:14:14,312 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/ncdjc.py', reloading
+2026-02-20 11:14:15,097 -  * Restarting with watchdog (fsevents)
+2026-02-20 11:14:15,227 -  * Debugger is active!
+2026-02-20 11:14:15,237 -  * Debugger PIN: 686-761-234
+2026-02-20 11:14:31,322 -  * Detected change in '/Users/laksh/Desktop/secure_auth_project/djd.py', reloading
+2026-02-20 11:14:31,386 -  * Restarting with watchdog (fsevents)
+2026-02-20 11:14:31,556 -  * Debugger is active!
+2026-02-20 11:14:31,566 -  * Debugger PIN: 686-761-234
+2026-03-31 09:59:18,286 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-31 09:59:18,286 - [33mPress CTRL+C to quit[0m
+2026-03-31 09:59:18,296 -  * Restarting with watchdog (fsevents)
+2026-03-31 09:59:18,431 -  * Debugger is active!
+2026-03-31 09:59:18,445 -  * Debugger PIN: 959-430-354
+2026-03-31 10:00:38,449 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-31 10:00:38,449 - [33mPress CTRL+C to quit[0m
+2026-03-31 10:00:38,459 -  * Restarting with watchdog (fsevents)
+2026-03-31 10:00:38,591 -  * Debugger is active!
+2026-03-31 10:00:38,608 -  * Debugger PIN: 959-430-354
+2026-03-31 10:01:10,875 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-03-31 10:01:11,843 -  * Restarting with watchdog (fsevents)
+2026-03-31 10:01:12,084 -  * Debugger is active!
+2026-03-31 10:01:12,097 -  * Debugger PIN: 959-430-354
+2026-03-31 10:01:12,433 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-03-31 10:01:13,146 -  * Restarting with watchdog (fsevents)
+2026-03-31 10:01:13,280 -  * Debugger is active!
+2026-03-31 10:01:13,294 -  * Debugger PIN: 959-430-354
+2026-03-31 10:01:14,618 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-03-31 10:01:15,349 -  * Restarting with watchdog (fsevents)
+2026-03-31 10:01:15,488 -  * Debugger is active!
+2026-03-31 10:01:15,498 -  * Debugger PIN: 959-430-354
+2026-03-31 10:01:23,543 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-31 10:01:23,543 - [33mPress CTRL+C to quit[0m
+2026-03-31 10:01:23,547 -  * Restarting with watchdog (fsevents)
+2026-03-31 10:01:23,679 -  * Debugger is active!
+2026-03-31 10:01:23,690 -  * Debugger PIN: 959-430-354
+2026-03-31 10:02:24,810 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-03-31 10:02:25,098 -  * Restarting with watchdog (fsevents)
+2026-03-31 10:02:25,442 -  * Debugger is active!
+2026-03-31 10:02:25,457 -  * Debugger PIN: 959-430-354
+2026-03-31 10:03:54,397 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2026-03-31 10:03:54,398 - [33mPress CTRL+C to quit[0m
+2026-03-31 10:03:54,405 -  * Restarting with watchdog (fsevents)
+2026-03-31 10:03:54,534 -  * Debugger is active!
+2026-03-31 10:03:54,547 -  * Debugger PIN: 959-430-354
+2026-03-31 10:04:15,918 - 127.0.0.1 - - [31/Mar/2026 10:04:15] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-31 10:05:14,561 - 127.0.0.1 - - [31/Mar/2026 10:05:14] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-31 10:05:14,579 - 127.0.0.1 - - [31/Mar/2026 10:05:14] "GET /login HTTP/1.1" 200 -
+2026-03-31 10:05:15,888 - 127.0.0.1 - - [31/Mar/2026 10:05:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-31 10:05:15,899 - 127.0.0.1 - - [31/Mar/2026 10:05:15] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-03-31 10:05:15,976 - 127.0.0.1 - - [31/Mar/2026 10:05:15] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-03-31 10:05:16,049 - 127.0.0.1 - - [31/Mar/2026 10:05:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-31 10:05:20,783 - 127.0.0.1 - - [31/Mar/2026 10:05:20] "GET /register HTTP/1.1" 200 -
+2026-03-31 10:05:50,620 - New user registered: damon
+2026-03-31 10:05:50,620 - 127.0.0.1 - - [31/Mar/2026 10:05:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-31 10:05:50,628 - 127.0.0.1 - - [31/Mar/2026 10:05:50] "GET /login HTTP/1.1" 200 -
+2026-03-31 10:06:03,248 - Password correct for damon
+2026-03-31 10:06:03,253 - 127.0.0.1 - - [31/Mar/2026 10:06:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-31 10:06:03,274 - 127.0.0.1 - - [31/Mar/2026 10:06:03] "GET /otp HTTP/1.1" 200 -
+2026-03-31 10:06:27,631 - OTP verified for damon from 127.0.0.1
+2026-03-31 10:06:27,633 - 127.0.0.1 - - [31/Mar/2026 10:06:27] "[32mPOST /otp HTTP/1.1[0m" 302 -
+2026-03-31 10:06:27,643 - 127.0.0.1 - - [31/Mar/2026 10:06:27] "GET /dashboard HTTP/1.1" 200 -
+2026-03-31 10:06:33,597 - 127.0.0.1 - - [31/Mar/2026 10:06:33] "GET /sessions HTTP/1.1" 200 -
+2026-03-31 10:06:38,130 - 127.0.0.1 - - [31/Mar/2026 10:06:38] "GET /dashboard HTTP/1.1" 200 -
+2026-03-31 10:06:39,834 - 127.0.0.1 - - [31/Mar/2026 10:06:39] "GET /setup_2fa HTTP/1.1" 200 -
+2026-03-31 10:06:49,418 - 127.0.0.1 - - [31/Mar/2026 10:06:49] "GET /audit_log HTTP/1.1" 200 -
+2026-03-31 10:07:13,392 - 127.0.0.1 - - [31/Mar/2026 10:07:13] "GET /dashboard HTTP/1.1" 200 -
+2026-03-31 10:23:38,236 - 127.0.0.1 - - [31/Mar/2026 10:23:38] "GET /audit_log HTTP/1.1" 200 -
+2026-03-31 10:23:40,956 - 127.0.0.1 - - [31/Mar/2026 10:23:40] "GET /setup_2fa HTTP/1.1" 200 -
+2026-03-31 15:11:06,827 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2026-03-31 15:11:06,827 - [33mPress CTRL+C to quit[0m
+2026-03-31 15:11:06,836 -  * Restarting with watchdog (fsevents)
+2026-03-31 15:11:06,982 -  * Debugger is active!
+2026-03-31 15:11:06,997 -  * Debugger PIN: 959-430-354
+2026-03-31 15:11:35,352 - 127.0.0.1 - - [31/Mar/2026 15:11:35] "GET /dashboard HTTP/1.1" 200 -
+2026-03-31 15:11:53,562 - 127.0.0.1 - - [31/Mar/2026 15:11:53] "GET /dashboard HTTP/1.1" 200 -
+2026-04-05 12:08:59,577 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2026-04-05 12:08:59,577 - [33mPress CTRL+C to quit[0m
+2026-04-05 12:08:59,595 -  * Restarting with watchdog (fsevents)
+2026-04-05 12:08:59,732 -  * Debugger is active!
+2026-04-05 12:08:59,747 -  * Debugger PIN: 959-430-354
+2026-04-05 12:12:26,111 - 127.0.0.1 - - [05/Apr/2026 12:12:26] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-05 12:12:26,129 - 127.0.0.1 - - [05/Apr/2026 12:12:26] "GET /login HTTP/1.1" 200 -
+2026-04-05 12:12:26,350 - 127.0.0.1 - - [05/Apr/2026 12:12:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-05 12:12:57,292 - 127.0.0.1 - - [05/Apr/2026 12:12:57] "GET /forgot_password HTTP/1.1" 200 -
+2026-04-05 12:13:04,410 - 127.0.0.1 - - [05/Apr/2026 12:13:04] "GET /login HTTP/1.1" 200 -
+2026-04-05 12:13:06,612 - 127.0.0.1 - - [05/Apr/2026 12:13:06] "GET /register HTTP/1.1" 200 -
+2026-04-05 12:14:13,136 - 127.0.0.1 - - [05/Apr/2026 12:14:13] "GET /register HTTP/1.1" 200 -
+2026-04-05 21:16:20,807 - 127.0.0.1 - - [05/Apr/2026 21:16:20] "GET /dashboard HTTP/1.1" 200 -
+2026-04-13 12:52:42,675 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2026-04-13 12:52:42,675 - [33mPress CTRL+C to quit[0m
+2026-04-13 12:52:42,700 -  * Restarting with watchdog (fsevents)
+2026-04-13 12:52:42,843 -  * Debugger is active!
+2026-04-13 12:52:42,862 -  * Debugger PIN: 959-430-354
+2026-04-13 12:53:13,798 - 127.0.0.1 - - [13/Apr/2026 12:53:13] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-13 12:53:13,815 - 127.0.0.1 - - [13/Apr/2026 12:53:13] "GET /login HTTP/1.1" 200 -
+2026-04-13 12:53:25,849 - 127.0.0.1 - - [13/Apr/2026 12:53:25] "GET /login HTTP/1.1" 200 -
+2026-04-13 12:54:51,312 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-04-13 12:54:51,558 -  * Restarting with watchdog (fsevents)
+2026-04-13 12:54:51,879 -  * Debugger is active!
+2026-04-13 12:54:51,895 -  * Debugger PIN: 959-430-354
+2026-04-13 12:54:57,170 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 12:54:57,170 - [33mPress CTRL+C to quit[0m
+2026-04-13 12:54:57,175 -  * Restarting with watchdog (fsevents)
+2026-04-13 12:54:57,337 -  * Debugger is active!
+2026-04-13 12:54:57,347 -  * Debugger PIN: 959-430-354
+2026-04-13 12:58:40,409 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2026-04-13 12:58:40,410 - [33mPress CTRL+C to quit[0m
+2026-04-13 12:58:40,420 -  * Restarting with watchdog (fsevents)
+2026-04-13 12:58:40,555 -  * Debugger is active!
+2026-04-13 12:58:40,571 -  * Debugger PIN: 959-430-354
+2026-04-13 12:59:55,866 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-04-13 12:59:56,004 -  * Restarting with watchdog (fsevents)
+2026-04-13 12:59:56,257 -  * Debugger is active!
+2026-04-13 12:59:56,271 -  * Debugger PIN: 959-430-354
+2026-04-13 12:59:57,359 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-04-13 12:59:58,362 -  * Restarting with watchdog (fsevents)
+2026-04-13 12:59:58,494 -  * Debugger is active!
+2026-04-13 12:59:58,502 -  * Debugger PIN: 959-430-354
+2026-04-13 13:00:16,210 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 13:00:16,210 - [33mPress CTRL+C to quit[0m
+2026-04-13 13:00:16,218 -  * Restarting with watchdog (fsevents)
+2026-04-13 13:00:16,350 -  * Debugger is active!
+2026-04-13 13:00:16,362 -  * Debugger PIN: 959-430-354
+2026-04-13 13:00:36,964 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 13:00:36,964 - [33mPress CTRL+C to quit[0m
+2026-04-13 13:00:36,970 -  * Restarting with watchdog (fsevents)
+2026-04-13 13:00:37,104 -  * Debugger is active!
+2026-04-13 13:00:37,119 -  * Debugger PIN: 959-430-354
+2026-04-13 13:01:02,442 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-04-13 13:01:02,443 -  * Detected change in '/Users/laksh/Downloads/secure_auth_v2/app.py', reloading
+2026-04-13 13:01:02,847 -  * Restarting with watchdog (fsevents)
+2026-04-13 13:01:03,040 -  * Debugger is active!
+2026-04-13 13:01:03,051 -  * Debugger PIN: 959-430-354
+2026-04-13 13:01:03,284 -  * Restarting with watchdog (fsevents)
+2026-04-13 13:01:03,413 -  * Debugger is active!
+2026-04-13 13:01:03,427 -  * Debugger PIN: 959-430-354
+2026-04-13 13:01:07,638 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2026-04-13 13:01:07,638 - [33mPress CTRL+C to quit[0m
+2026-04-13 13:01:07,644 -  * Restarting with watchdog (fsevents)
+2026-04-13 13:01:07,792 -  * Debugger is active!
+2026-04-13 13:01:07,806 -  * Debugger PIN: 959-430-354
+2026-04-13 13:01:11,617 - 127.0.0.1 - - [13/Apr/2026 13:01:11] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-13 13:01:11,629 - 127.0.0.1 - - [13/Apr/2026 13:01:11] "GET /login HTTP/1.1" 200 -
+2026-04-13 13:01:12,998 - 127.0.0.1 - - [13/Apr/2026 13:01:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-13 13:02:35,535 - 127.0.0.1 - - [13/Apr/2026 13:02:35] "GET /forgot_password HTTP/1.1" 200 -
+2026-04-13 13:02:47,233 - Password reset requested for damon
+2026-04-13 13:02:47,235 - 127.0.0.1 - - [13/Apr/2026 13:02:47] "POST /forgot_password HTTP/1.1" 200 -
+2026-04-13 13:03:09,104 - 127.0.0.1 - - [13/Apr/2026 13:03:09] "GET /reset_password/l0vwiyMZSGD8jjpGfzD7xO6mRbYCPnYo6XcInoUHMQs HTTP/1.1" 200 -
+2026-04-13 13:03:10,161 - 127.0.0.1 - - [13/Apr/2026 13:03:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-13 13:03:17,145 - 127.0.0.1 - - [13/Apr/2026 13:03:17] "POST /reset_password/l0vwiyMZSGD8jjpGfzD7xO6mRbYCPnYo6XcInoUHMQs HTTP/1.1" 200 -
+2026-04-13 13:03:25,694 - Password reset successful for damon
+2026-04-13 13:03:25,695 - 127.0.0.1 - - [13/Apr/2026 13:03:25] "[32mPOST /reset_password/l0vwiyMZSGD8jjpGfzD7xO6mRbYCPnYo6XcInoUHMQs HTTP/1.1[0m" 302 -
+2026-04-13 13:03:25,697 - 127.0.0.1 - - [13/Apr/2026 13:03:25] "GET /login HTTP/1.1" 200 -
+2026-04-13 13:03:41,838 - Password correct for damon
+2026-04-13 13:03:41,844 - 127.0.0.1 - - [13/Apr/2026 13:03:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-13 13:03:41,855 - 127.0.0.1 - - [13/Apr/2026 13:03:41] "GET /otp HTTP/1.1" 200 -
+2026-04-13 13:03:53,333 - OTP verified for damon from 127.0.0.1
+2026-04-13 13:03:53,336 - 127.0.0.1 - - [13/Apr/2026 13:03:53] "[32mPOST /otp HTTP/1.1[0m" 302 -
+2026-04-13 13:03:53,344 - 127.0.0.1 - - [13/Apr/2026 13:03:53] "GET /dashboard HTTP/1.1" 200 -
+2026-04-13 13:04:03,684 - 127.0.0.1 - - [13/Apr/2026 13:04:03] "GET /dashboard HTTP/1.1" 200 -
