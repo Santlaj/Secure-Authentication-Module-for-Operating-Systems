@@ -1,4 +1,4 @@
-# Secure Authentication Module
+# Secure Authentication System Module
 
 A Flask-based multi-factor authentication system.
 
