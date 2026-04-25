@@ -26,7 +26,7 @@ def home():
     return redirect("/login")
 
 
-# ================= REGISTER =================
+# REGISTER 
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
@@ -48,7 +48,7 @@ def register():
     return render_template("register.html", error=error)
 
 
-# ================= LOGIN =================
+#  LOGIN 
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -82,8 +82,7 @@ def login():
     return render_template("login.html", error=error)
 
 
-# ================= OTP =================
-
+# OTP 
 @app.route("/otp", methods=["GET", "POST"])
 def otp():
     if "username" not in session:
@@ -107,7 +106,7 @@ def otp():
     return render_template("otp.html", error=error)
 
 
-# ================= DASHBOARD =================
+# DASHBOARD 
 
 @app.route("/dashboard")
 def dashboard():
@@ -116,7 +115,7 @@ def dashboard():
     return render_template("dashboard.html", user=session["username"])
 
 
-# ================= SESSION MANAGEMENT =================
+# SESSION MANAGEMENT
 
 @app.route("/sessions")
 def sessions():
@@ -145,7 +144,7 @@ def revoke_all():
     return redirect("/login")
 
 
-# ================= QR CODE / 2FA SETUP =================
+# QR CODE / 2FA SETUP
 
 @app.route("/setup_2fa")
 def setup_2fa():
@@ -157,7 +156,7 @@ def setup_2fa():
     return render_template("setup_2fa.html", qr_b64=qr_b64, secret=secret)
 
 
-# ================= PASSWORD RESET =================
+# PASSWORD RESET 
 
 @app.route("/forgot_password", methods=["GET", "POST"])
 def forgot_password():
@@ -205,7 +204,7 @@ def reset_password(token):
     return render_template("reset_password.html", token=token, invalid=False, error=error)
 
 
-# ================= AUDIT LOG =================
+# AUDIT LOG 
 
 @app.route("/audit_log")
 def audit_log():
@@ -226,8 +225,7 @@ def audit_log():
     return render_template("audit_log.html", logs=logs)
 
 
-# ================= LOGOUT =================
-
+#  LOGOUT 
 @app.route("/logout")
 def logout():
     if "session_id" in session:
