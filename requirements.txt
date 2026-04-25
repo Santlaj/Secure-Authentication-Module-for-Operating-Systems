@@ -4,3 +4,4 @@ bcrypt
 python-dotenv
 qrcode[pil]
 pillow
+gunicorn
