@@ -225,7 +225,7 @@ def audit_log():
     return render_template("audit_log.html", logs=logs)
 
 
-#  LOGOUT 
+#  Logout
 @app.route("/logout")
 def logout():
     if "session_id" in session:
