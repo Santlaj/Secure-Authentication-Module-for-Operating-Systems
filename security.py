@@ -26,6 +26,11 @@ logging.basicConfig(
 )
 
 
+
+
+
+
+
 def send_email_otp(to_email, otp):
     try:
         msg = MIMEText(f"Your OTP is: {otp}\n\nThis code expires in 30 seconds.")
